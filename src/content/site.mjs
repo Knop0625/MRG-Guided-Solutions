@@ -9,7 +9,7 @@ export const site = {
   region: "Florida",
   country: "United States",
   description:
-    "MRG Guided Solutions helps busy companies organize, automate, and delegate the operational work that slows them down.",
+    "MRG Guided Solutions helps busy companies organize workflows, automate repeatable work, and delegate operations with confidence.",
   defaultImage: "/assets/images/hero-operations.webp",
   nav: [
     { label: "Services", href: "/services/" },
@@ -28,7 +28,7 @@ export const services = [
     shortTitle: "Workflow Organization",
     icon: "flow",
     summary:
-      "Map, simplify, and document the way work moves through your business so fewer details get missed.",
+      "Turn scattered tasks into clear workflows your team can follow.",
     description:
       "MRG turns scattered tasks, handoffs, emails, files, and owner-held knowledge into clear workflows your team can actually follow.",
     keywords:
@@ -62,7 +62,7 @@ export const services = [
     shortTitle: "Automation & Systems",
     icon: "gear",
     summary:
-      "Set up practical automations that reduce manual work without forcing your team into complicated software.",
+      "Reduce repetitive admin with simple, practical systems.",
     description:
       "MRG helps identify repetitive work that can be automated, then builds reliable systems for reminders, routing, templates, intake, tracking, and status updates.",
     keywords:
@@ -96,7 +96,7 @@ export const services = [
     shortTitle: "Delegated Operations",
     icon: "team",
     summary:
-      "Give your business trained operational support for the recurring work that should not depend on the owner.",
+      "Move recurring work off the owner and into trained support.",
     description:
       "MRG can provide managed support for recurring operational tasks, client follow-up, document coordination, inbox workflows, scheduling, and reporting.",
     keywords:
@@ -130,7 +130,7 @@ export const services = [
     shortTitle: "Document & Data Management",
     icon: "document",
     summary:
-      "Create order around files, forms, records, intake details, and client information so your team can find what it needs.",
+      "Keep files, forms, records, and client details easier to find.",
     description:
       "MRG helps service businesses clean up document collection, naming systems, client folders, status tracking, data entry, and review routines.",
     keywords:
@@ -164,7 +164,7 @@ export const services = [
     shortTitle: "Reporting & Visibility",
     icon: "chart",
     summary:
-      "Build simple dashboards and operating reports so owners can see what is moving, stuck, overdue, or ready for review.",
+      "See what is moving, stuck, overdue, or ready for review.",
     description:
       "MRG helps define the information a business needs to manage work, then creates practical reporting routines for follow-up, status, workload, and performance.",
     keywords:
@@ -198,7 +198,7 @@ export const services = [
     shortTitle: "Process Consulting",
     icon: "check",
     summary:
-      "Get practical guidance on how to refine operations, delegate work, train staff, and scale without losing control.",
+      "Refine the way work gets done before growth adds pressure.",
     description:
       "MRG provides grounded operations consulting for business owners who need better systems, stronger delegation, and a practical path from founder-dependent to team-run.",
     keywords:
@@ -233,25 +233,25 @@ export const processSteps = [
     number: "1",
     title: "Discover",
     text:
-      "We learn how your business actually operates, where work gets stuck, and what the owner is still carrying alone."
+      "We learn how work moves and where it gets stuck."
   },
   {
     number: "2",
     title: "Design",
     text:
-      "We map the improved workflow, clarify roles, choose practical systems, and create the first operating documents."
+      "We map the cleaner workflow and clarify ownership."
   },
   {
     number: "3",
     title: "Implement",
     text:
-      "We set up the tools, templates, automations, handoffs, and support routines that keep the work moving."
+      "We set up the tools, templates, and support routines."
   },
   {
     number: "4",
     title: "Optimize",
     text:
-      "We review what is working, monitor capacity, refine the process, and help the system grow with the business."
+      "We refine the system as your business grows."
   }
 ];
 
@@ -509,23 +509,23 @@ export const resources = [
 
 export const proofPoints = [
   {
-    title: "Business First",
+    title: "Practical First",
     text:
-      "MRG starts with the work your company needs to move, then chooses systems that make the work easier to run."
+      "We start with the work, then choose the tools."
   },
   {
-    title: "Practical and Flexible",
+    title: "Built to Hand Off",
     text:
-      "Solutions are designed around your team, your tools, your budget, and the level of support you actually need."
+      "Workflows are designed so someone besides the owner can run them."
   },
   {
-    title: "Built for Delegation",
+    title: "Flexible Support",
     text:
-      "The goal is not dependency on a consultant. The goal is work that can be taught, transferred, reviewed, and repeated."
+      "Use MRG for setup, ongoing support, or both."
   },
   {
-    title: "AI-Assisted, Human-Reviewed",
+    title: "Human-Guided Automation",
     text:
-      "MRG can use AI to speed up drafting, sorting, summarizing, and routing while keeping human judgment in the process."
+      "AI can help move faster, but people stay in the review loop."
   }
 ];

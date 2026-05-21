@@ -378,7 +378,8 @@ p {
 }
 
 .service-grid-six {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .service-card,
@@ -394,11 +395,13 @@ p {
 .service-card {
   min-height: 280px;
   display: grid;
+  grid-template-rows: auto auto 1fr auto;
   gap: 14px;
 }
 
 .service-grid-six .service-card {
-  padding: 24px 20px;
+  min-height: 250px;
+  padding: 28px;
 }
 
 .service-card .icon,

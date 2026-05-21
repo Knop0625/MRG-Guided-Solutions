@@ -2,7 +2,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  homeFaqs,
   industries,
   processSteps,
   proofPoints,
@@ -376,7 +375,6 @@ function renderContactForm() {
 
 function renderHome() {
   const schemas = [
-    faqSchema(homeFaqs),
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -404,7 +402,7 @@ function renderHome() {
       <div class="hero-grid">
         <div class="hero-copy">
           <h1>The operating support busy companies wish they already had.</h1>
-          <p class="lead">MRG organizes your workflows, builds practical automations, and provides trained support so work keeps moving without everything depending on the owner.</p>
+          <p class="lead">MRG helps you organize the work, automate the repeatable parts, and build support your team can run.</p>
           <div class="hero-actions">
             <a class="button" href="/contact/">${escapeHtml(site.primaryCta.label)} ${smallIcon("calendar")}</a>
             <a class="button secondary" href="/services/">Explore Services ${smallIcon("arrow")}</a>
@@ -414,7 +412,7 @@ function renderHome() {
           <img class="hero-image" src="/assets/images/hero-operations.webp" alt="Organized business operations workspace with workflow board, documents, and dashboard">
           <div class="hero-note">
             <strong>Managed Results Group</strong>
-            <p class="muted">Workflow design, automation setup, and delegated operations support under one practical system.</p>
+            <p class="muted">Clear workflows. Practical automation. Reliable support.</p>
           </div>
         </div>
       </div>
@@ -422,14 +420,14 @@ function renderHome() {
     <section class="quick-answer" aria-labelledby="quick-answer-title">
       <div class="container">
         <h2 id="quick-answer-title">Quick Answer</h2>
-        <p>MRG Guided Solutions is a managed operations company for small and midsize service businesses. MRG stands for Managed Results Group. The company helps owners and teams reduce operational chaos through workflow organization, practical automation, process documentation, reporting, and delegated support.</p>
+        <p>MRG Guided Solutions is a managed operations partner for busy service businesses. MRG turns scattered work into systems your team can run.</p>
       </div>
     </section>
     <section class="section soft" id="services">
       <div class="container">
         <div class="section-heading">
           <h2>Services</h2>
-          <p class="muted">Practical operating support built around how your business actually works.</p>
+          <p class="muted">Focused support for the work that keeps the business moving.</p>
         </div>
         <div class="service-grid service-grid-six">${services.map(serviceCard).join("")}</div>
       </div>
@@ -438,7 +436,7 @@ function renderHome() {
       <div class="container">
         <div class="section-heading">
           <h2>How It Works</h2>
-          <p class="muted">A simple process that turns owner-dependent work into repeatable operations.</p>
+          <p class="muted">From messy process to repeatable system.</p>
         </div>
         <div class="process">
           ${processSteps
@@ -457,7 +455,7 @@ function renderHome() {
       <div class="container">
         <div class="section-heading">
           <h2>Industries Served</h2>
-          <p class="muted">MRG partners with service businesses where organized operations make all the difference.</p>
+          <p class="muted">Built for service businesses with clients, documents, details, and follow-up.</p>
         </div>
         <div class="industry-list">${industries.map(industryLink).join("")}</div>
       </div>
@@ -467,7 +465,7 @@ function renderHome() {
         <div>
           <div class="section-heading left">
             <h2>Why MRG</h2>
-            <p class="muted">We bring operating discipline and a partner mindset to every engagement.</p>
+            <p class="muted">Simple systems. Clear handoffs. Support that can scale.</p>
           </div>
           <div class="proof-list">
             ${proofPoints
@@ -490,28 +488,19 @@ function renderHome() {
       <div class="container">
         <div class="section-heading left">
           <h2>Insights and Resources</h2>
-          <p class="muted">Plain-English articles that help owners build more organized, efficient businesses.</p>
+          <p class="muted">Short guides for cleaner workflows and better delegation.</p>
         </div>
         <div class="article-grid">${resources.map(articleCard).join("")}</div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container narrow">
-        <div class="section-heading">
-          <h2>Common Questions</h2>
-          <p class="muted">Clear answers for owners looking for operations help, automation, and delegation support.</p>
-        </div>
-        ${faqSection(homeFaqs)}
       </div>
     </section>
     <section class="section teal">
       <div class="container cta-band">
         <div class="cta-copy">
-          <h2>Let's build operations that free you up to lead.</h2>
-          <p class="muted">Schedule a Business Review and MRG will identify opportunities to save time, reduce stress, and support growth.</p>
+          <h2>Ready for a business that feels easier to run?</h2>
+          <p class="muted">Start with a practical review of what needs structure, support, or automation.</p>
           <div>
             <p><strong>${smallIcon("calendar")} Schedule a Business Review</strong></p>
-            <p class="muted">Choose a time that works for you.</p>
+            <p class="muted">A focused first conversation.</p>
           </div>
           <div>
             <p><strong>${smallIcon("mail")} Email Us</strong></p>
