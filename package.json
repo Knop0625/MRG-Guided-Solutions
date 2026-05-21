@@ -1,0 +1,11 @@
+{
+  "name": "mrg-guided-solutions-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static, SEO-focused website for MRG Guided Solutions.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}

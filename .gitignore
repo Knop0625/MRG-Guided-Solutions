@@ -1,0 +1,5 @@
+dist/
+mrg-guided-solutions-site.zip
+server.*.log
+.DS_Store
+Thumbs.db

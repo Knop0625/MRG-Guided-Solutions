@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="MRG Guided Solutions">
+  <rect width="512" height="512" rx="64" fill="#004f57"/>
+  <path d="M76 352V150h52l64 118 64-118h52v202h-50V232l-48 94h-36l-48-94v120H76Z" fill="#ffffff"/>
+  <path d="M336 352V150h52v154h64v48H336Z" fill="#c8944a"/>
+</svg>
